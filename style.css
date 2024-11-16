@@ -285,4 +285,6 @@ animation: reveal var(--trans-duration) ease forwards;
 body {
     background: beige;
     background: bisque;
+    background: aquamarine;
+    background-color: blanchedalmond;
 }
