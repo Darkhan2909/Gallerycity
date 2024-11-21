@@ -268,23 +268,18 @@ body::after {
 }
 
 
-/*
-.wheel:has(:hover) li:not(:hover)::after{
-  animation: hide var(--speed-hide) ease forwards;
-  filter: blur(4px);
-  transition: z-index 300s 500ms; 
-}
-*/
-  /*
-.wheel > li:has(.hoverable:hover)::after {
-animation: reveal var(--trans-duration) ease forwards;
- 
-}
-*/
 
 body {
     background: beige;
     background: bisque;
     background: aquamarine;
     background-color: blanchedalmond;
+}
+
+
+
+body ul {
+  background: aquamarine;
+  border-radius: 9px;
+  padding: 13px;
 }
